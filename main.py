@@ -81,8 +81,5 @@ def scraping_data_to_files():
                         # writing to first file - links
                         writer_links.writerow([link])
 
-def main():
-    scraping_data_to_files()
-
-if __name__ == "__main__":
-    main()
+# start
+scraping_data_to_files()
